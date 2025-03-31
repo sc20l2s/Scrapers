@@ -10,7 +10,7 @@ These programs essentially automate navigating a webpage.
 A lot of newspaper archives have URLs that follow this structure (or something similair):
 `https://www.lemonde.fr/archives-du-monde/{day}-{month}-{year}/{page}/`
 
-The program works by looping through every possible date and page number in a selected year. Here's a simplified example for November 19, 2002:
+The program works by looping through every possible date and page number in a selected year. Here's a simplified example:
 
 `https://www.lemonde.fr/archives-du-monde/{19}-{11}-{2002}/{1}/` => Loop through every page in a given day (19th of November 2002) <br>
 `https://www.lemonde.fr/archives-du-monde/{19}-{11}-{2002}/{2}/` <br>
