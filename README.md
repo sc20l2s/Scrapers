@@ -2,15 +2,15 @@
 
 These programs essentially automate navigating a webpage. 
 A lot of newspaper archives have URLs that follow this structure (or something similair):
-https://www.lemonde.fr/archives-du-monde/{day}-{month}-{year}/{page}/
+`https://www.lemonde.fr/archives-du-monde/{day}-{month}-{year}/{page}/`
 
 The program works by looping through every possible date and page number in a selected year. Here's a simplified example for November 19, 2002:
 
-https://www.lemonde.fr/archives-du-monde/{19}-{11}-{2002}/{1}/ Loop through every page in a given day (19th of November 2002)
-https://www.lemonde.fr/archives-du-monde/{19}-{11}-{2002}/{2}/
-https://www.lemonde.fr/archives-du-monde/{19}-{11}-{2002}/{3}/
+`https://www.lemonde.fr/archives-du-monde/{19}-{11}-{2002}/{1}/` Loop through every page in a given day (19th of November 2002)
+`https://www.lemonde.fr/archives-du-monde/{19}-{11}-{2002}/{2}/`
+`https://www.lemonde.fr/archives-du-monde/{19}-{11}-{2002}/{3}/`
 ...
-https://www.lemonde.fr/archives-du-monde/{20}-{11}-{2002}/{3}/ Once we are done move onto the next day and continue
+`https://www.lemonde.fr/archives-du-monde/{20}-{11}-{2002}/{3}/` Once we are done move onto the next day and continue
 
 Eventually, it goes through **every page of every day** in the year you've chosen.
 
