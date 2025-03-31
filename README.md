@@ -1,5 +1,11 @@
 # Scrapers
 
+## Installation / running:
+When installing the project for the first time, run `setup.bat`
+Then to run the scrapers `launcher.bat`
+Everything else should be done for you.
+
+## How it works
 These programs essentially automate navigating a webpage. 
 A lot of newspaper archives have URLs that follow this structure (or something similair):
 `https://www.lemonde.fr/archives-du-monde/{day}-{month}-{year}/{page}/`
