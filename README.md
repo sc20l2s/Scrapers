@@ -9,7 +9,7 @@ The program works by looping through every possible date and page number in a se
 `https://www.lemonde.fr/archives-du-monde/{19}-{11}-{2002}/{1}/` => Loop through every page in a given day (19th of November 2002) <br>
 `https://www.lemonde.fr/archives-du-monde/{19}-{11}-{2002}/{2}/` <br>
 `https://www.lemonde.fr/archives-du-monde/{19}-{11}-{2002}/{3}/` <br>
-... <br>
+`...` <br>
 `https://www.lemonde.fr/archives-du-monde/{20}-{11}-{2002}/{3}/` => Once we are done move onto the next day and continue <br>
 
 Eventually, it goes through **every page of every day** in the year you've chosen.
